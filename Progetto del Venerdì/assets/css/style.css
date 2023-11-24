@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,700;1,900&display=swap");
+
+/* font-family: 'Spectral', serif; */
+.flex {
+    display: flex;
+}
+
+.center-aligning {
+    justify-content: center;
+    gap: 500px;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.margin-bottom {
+    margin-block-end: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.color {
+    background-color: #ffc017;
+}
+
+.margin {
+    margin-block: 1em;
+}
+
+.color-p {
+    color: rgb(17, 211, 17);
+}
+
+.margin-inline {
+    margin-inline-start: 2em;
+    margin-inline-end: 3em;
+}
+
+.width {
+    width: 40%;
+}
+
+.max-width {
+    max-width: 80%;
+}
+
+.padding {
+    padding: 0.3em;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.padding-top {
+    padding-top: 80px;
+}
+
+.button-style {
+    background-color: #191919;
+    color: aliceblue;
+    cursor: pointer;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+#size-button-header {
+    background-color: #191919;
+    color: aliceblue;
+    cursor: pointer;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 99px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+.animazioneBottone {
+    animation-name: scrollmodificaBottone;
+    transition-timing-function: cubic-bezier(0.1, 1.2, 0.9, -0.01);
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+.animazioneHeader {
+    animation-name: scrollmodificaheader;
+    transition-timing-function: cubic-bezier(0.1, 1.2, 0.9, -0.01);
+    animation-duration: 700ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scrollmodificaBottone {
+    0% {
+        background-color: #191919;
+    }
+    100% {
+        background-color: green;
+        border: green 1px solid;
+    }
+}
+
+@keyframes scrollmodificaheader {
+    0% {
+        background-color: #ffc017;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.button-section {
+    border-radius: 99px;
+    border: none;
+    background-color: #f2f2f2;
+    color: black;
+    padding-inline: 0.5em;
+    cursor: pointer;
+}
+
+.button-section1 {
+    border-radius: 99px;
+    border: none;
+    background-color: #f2f2f2;
+    color: black;
+    padding-inline: 1.2em;
+    padding-block: 0.9em;
+    margin: 0.3em;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.button-style:hover,
+.button-section1:hover,
+.button-section:hover {
+    box-shadow: 1px 1px 5px black;
+}
+
+.length {
+    width: 200px;
+}
+
+.opacity {
+    opacity: 0.2;
+    font-size: 2em;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+header {
+    padding: 1.2rem;
+    background-color: #ffc017;
+    border-bottom: #191919 solid 1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+nav li {
+    list-style-type: none;
+    margin-inline: 10px;
+    font-size: smaller;
+}
+
+header .principal-flex div:nth-child(2) {
+    align-items: center;
+    gap: 15px;
+}
+
+/* MAIN */
+
+.hero {
+    background-color: #ffc017;
+    position: relative;
+}
+
+main .hero div:nth-child(1) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 30px;
+    padding-block: 6.5em;
+}
+
+#position {
+    position: absolute;
+    right: -400px;
+    bottom: 0;
+}
+
+/* ASIDE  */
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+.wrapperBig {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65%;
+    margin: auto;
+}
+
+#icon-arrow {
+    width: 30px;
+    height: auto;
+}
+
+.single-cell {
+    padding-block: 1.2em;
+    padding-inline: 2em;
+    margin-inline: 3em;
+}
+
+aside .flex .trending-cell .single-cell div:nth-child(2) {
+    padding: 0.5em 1em 1em 1em;
+}
+
+aside .flex .trending-cell .single-cell div:nth-child(2) h5,
+h6,
+p {
+    margin-block: 0.4em;
+}
+
+/* SECTIONS */
+
+/* section1 */
+.wrapperBig .flex .section1 {
+    margin: 1em;
+}
+
+.wrapperBig .flex .section1 .flex div:nth-child(1) p {
+    font-size: 0.8em;
+    padding: 0.25em;
+}
+
+.wrapperBig .flex .section1 .flex div:nth-child(2) p {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 0.1em;
+}
+
+.wrapperBig .flex .section1 .flex div:nth-child(3) p {
+    font-size: 1;
+    padding: 0.1em;
+}
+
+.wrapperBig .flex .section1 .flex div:nth-child(4) p {
+    padding: 0.1em;
+}
+
+.wrapperBig .flex .section2 img {
+    height: auto;
+}
+
+#img-section {
+    max-width: 200px;
+    height: 150px;
+}
+
+/* BOTTONI */
+
+.wrapperBig .flex .buttons-side div h4 {
+    margin: 1em;
+    font-weight: bold;
+}
+
+.buttons-side {
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    align-self: flex-start; /* <-- this is the fix */
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 58%;
+    margin-inline: auto;
+    padding-top: 20px;
+}
