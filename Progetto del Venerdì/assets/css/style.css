@@ -82,6 +82,11 @@ h6 {
     padding-top: 80px;
 }
 
+.position {
+    position: relative;
+    right: 0;
+}
+
 .button-style {
     background-color: #191919;
     color: aliceblue;
@@ -221,7 +226,6 @@ header .principal-flex div:nth-child(2) {
 
 .hero {
     background-color: #ffc017;
-    position: relative;
 }
 
 main .hero div:nth-child(1) {
@@ -234,7 +238,7 @@ main .hero div:nth-child(1) {
 
 #position {
     position: absolute;
-    right: -400px;
+    right: 0;
     bottom: 0;
 }
 
@@ -244,7 +248,7 @@ aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 75%;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -280,6 +284,11 @@ p {
 /* SECTIONS */
 
 /* section1 */
+
+#max-width {
+    max-width: 1150px;
+}
+
 .wrapperBig .flex .section1 {
     margin: 1em;
 }
@@ -332,7 +341,7 @@ p {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    width: 58%;
+    max-width: 1100px;
     margin-inline: auto;
     padding-top: 20px;
 }
