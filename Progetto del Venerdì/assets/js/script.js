@@ -4,7 +4,7 @@ window.onload = () => {
 
 const buttoneHeader = document.getElementById("size-button-header");
 const header = document.getElementById("header");
-const EmmeMovimentate = document.querySelector(".js-animation");
+const EmmeMovimentate = document.querySelectorAll(".js-animation");
 
 window.addEventListener("scroll", () => {
     scrollAnimation();
@@ -20,4 +20,4 @@ function scrollAnimation() {
     }
 }
 
-function movingEmme() {}
+function movingEmme(params) {}
