@@ -31,7 +31,7 @@
                         <g style="display: none;"></g>
                     </g>
                 </g>
-                <g stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4"
+                <g id="prova" stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4"
                     transform="matrix(1,0,0,1,-28.6619930267334,-187.70428466796875)" opacity="0"
                     style="display: inherit;">
                     <g transform="scale(0.22,0.22)">
@@ -81,6 +81,7 @@
                         </g>
                     </g>
                 </g>
+
                 <g stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4"
                     transform="matrix(1,0,0,1,36.65599822998047,-187.70428466796875)" opacity="0"
                     style="display: inherit;">
@@ -100,6 +101,7 @@
                         </g>
                     </g>
                 </g>
+
                 <g stroke-linecap="butt" stroke-linejoin="round" stroke-miterlimit="4"
                     transform="matrix(1,0,0,1,59.954002380371094,-187.70428466796875)" opacity="1"
                     style="display: inherit;">
