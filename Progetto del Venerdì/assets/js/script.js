@@ -14,7 +14,6 @@ function scrollAnimation() {
         header.classList.remove("animazioneHeader");
     }
 }
-const m = document.querySelectorAll("svg g");
 
 // const fade = setInterval(() => {
 // m.forEach((item) => {
@@ -55,6 +54,8 @@ const m = document.querySelectorAll("svg g");
 //         }, 1000); // Adjust the delay based on the index
 //     }
 // });
+
+const m = document.querySelectorAll("svg g:nth-child(n + 2");
 
 m.forEach((item, index) => {
     if (item.getAttribute("opacity")) {
