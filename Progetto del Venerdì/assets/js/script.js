@@ -64,7 +64,7 @@ m.forEach((item, index) => {
             let randomNumber = Math.floor(Math.random() * 2);
             console.log(randomNumber);
             item.setAttribute("opacity", `${randomNumber}`);
-        }, 4000);
+        }, 2000);
     }
 });
 
